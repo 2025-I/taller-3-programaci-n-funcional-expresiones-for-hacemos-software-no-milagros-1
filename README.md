@@ -85,4 +85,4 @@ El manejo adecuado de la recursión y la estructuración funcional de los algori
 
 Finalmente, este ejercicio reafirmó el valor de las pruebas de software bien diseñadas como herramienta fundamental para asegurar la calidad y robustez del código, preparándonos para enfrentar con éxito desafíos de programación funcional de mayor envergadura en el ámbito académico y profesional.
 
------
+------------- fin -------------
