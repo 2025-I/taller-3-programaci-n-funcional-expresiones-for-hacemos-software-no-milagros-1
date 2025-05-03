@@ -24,6 +24,7 @@ uno = List(3, 4)
 dos = List()
 
 
+
 ---
 
 ### 2. aplicarMovimientos
