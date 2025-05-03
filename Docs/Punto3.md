@@ -7,7 +7,7 @@
 Esta función recibe un estado (principal, uno, dos) y un movimiento Uno(n) o Dos(n). Dependiendo del signo de n, transfiere elementos de una vía a otra.
 
 *Ejemplo paso a paso:*
- 
+  
 scala
 Estado inicial:
 principal = List(1, 2, 3, 4)
