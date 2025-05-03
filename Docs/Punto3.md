@@ -60,8 +60,6 @@ t2 = List(C, B, A)
 
 
 ---
- 
-
 ## Estado de la pila de llamados
 
 La función definirManiobra usa recursión con cola (@tailrec), lo que evita crecimiento excesivo de pila.
