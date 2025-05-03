@@ -8,7 +8,7 @@ Esta función recibe un estado (principal, uno, dos) y un movimiento Uno(n) o Do
 
 *Ejemplo paso a paso:*
 
- 
+
 scala
 Estado inicial:
 principal = List(1, 2, 3, 4)
