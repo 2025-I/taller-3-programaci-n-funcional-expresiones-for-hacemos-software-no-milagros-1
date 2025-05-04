@@ -73,5 +73,11 @@ class DefinirManiobraTest extends AnyFunSuite {
     val maniobra = movimientosTren.definirManiobra(trenInicial, trenDeseado)
     assert(maniobra.nonEmpty)
   }
+  test("Definir maniobra con símbolos especiales") {
+    val trenInicial = List('@', '#', '$', '%')
+    val trenDeseado = List('%', '$', '#', '@')
+    val maniobra = movimientosTren.definirManiobra(trenInicial, trenDeseado)
+    assert(maniobra.nonEmpty)
+  }
 
 }
