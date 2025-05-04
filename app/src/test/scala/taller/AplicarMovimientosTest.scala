@@ -101,5 +101,16 @@ class AplicarMovimientosTest extends AnyFunSuite {
     val resultado = movimientosTren.aplicarMovimientos(estado, movimientos)
     assert(resultado.size == 1001)
   }
-
+  test("Mover más vagones de los que existen (Uno(10) en lista de 2)") {
+    val estado = (List("a", "b"), Nil, Nil)
+    val resultado = movimientosTren.aplicarMovimiento(estado, Uno(10))
+    assert(resultado._1.isEmpty)
+    assert(resultado._2 == List("a", "b"))
+  }
+  test("Longitud total se conserva en movimientos") {
+    val estado = (List("1", "2", "3", "4"), Nil, Nil)
+    val movimientos = List(Uno(2), Dos(1), Uno(-1))
+    val resultado = movimientosTren.aplicarMovimientos(estado, movimientos)
+    val (p, u, d) = resultado.last
+    assert(p.size + u.size + d.size ==4)}
 }
